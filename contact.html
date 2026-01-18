@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-content">
+        <h1>Contact</h1>
+        <p class="subtitle">Vous pouvez me contacter via les informations ci-dessous</p>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="experiences.html">Expériences</a></li>
+        <li><a href="evenements.html">Événements</a></li>
+        <li><a href="matieres.html">Matières & Projets</a></li>
+        <li><a href="passions.html">Passions</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="temoignage.html">Témoignage</a></li>
+    </ul>
+</nav>
+
+<main class="main-content">
+
+    <section class="section">
+        <h2>Informations</h2>
+
+        <div class="grid">
+            <article class="card">
+                <h3>Coordonnées</h3>
+                <p><strong>Email :</strong> <a href="mailto:bellaajsirine45@gmail.com">bellaajsirine45@gmail.com</a></p>
+                <p><strong>Téléphone :</strong> +216 58 161 299</p>
+                <p><strong>Ville :</strong> Sfax, Tunisie</p>
+                <p>
+                    <strong>LinkedIn :</strong>
+                    <a href="https://www.linkedin.com/in/sirine-bellaaj-105aa3305/" target="_blank">Voir mon profil</a>
+                </p>
+                <p>
+                    Je suis disponible pour échanger concernant des projets, stages ou collaborations
+                    en développement web et logiciel.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Formulaire de contact</h3>
+                <p>
+                    Ce formulaire permet d’envoyer un message. Il s’agit d’un formulaire HTML
+                    conforme au module (champs obligatoires, types adaptés).
+                </p>
+
+                <form action="mailto:bellaajsirine45@gmail.com" method="get">
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+
+                        <label for="nom">Nom *</label><br>
+                        <input type="text" id="nom" name="nom" required><br><br>
+
+                        <label for="prenom">Prénom *</label><br>
+                        <input type="text" id="prenom" name="prenom" required><br><br>
+
+                        <label for="email">Email *</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="tel">Téléphone</label><br>
+                        <input type="tel" id="tel" name="tel" placeholder="+216 XX XXX XXX"><br>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Votre message</legend>
+
+                        <label for="sujet">Sujet *</label><br>
+                        <input type="text" id="sujet" name="sujet" required><br><br>
+
+                        <label for="message">Message *</label><br>
+                        <textarea id="message" name="message" rows="7" required></textarea>
+                    </fieldset>
+
+                    <br>
+
+                    <div class="quiz-buttons">
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Réinitialiser">
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2026 - Sirine Bellaaj. Tous droits réservés.</p>
+    <p>Projet réalisé dans le cadre du module Programmation Web 1 – IIT</p>
+</footer>
+
+</body>
+</html>
