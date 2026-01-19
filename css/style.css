@@ -208,3 +208,95 @@ form textarea {
 .quiz-buttons input[type="reset"]:hover {
     background-color: #d1d5db;
 }
+/* =========================
+   VIDÉO
+========================= */
+
+.video-card {
+    text-align: center;
+}
+
+.video-card video {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.video-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+    font-size: 0.95em;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 0.95em;
+    }
+
+    .site-header h1 {
+        font-size: 1.6em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+      
+    }
+
+    .main-nav a {
+        text-align: center;
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .main-content {
+        margin: 22px auto;
+        padding: 0 14px;
+    }
+
+    .section h2 {
+        font-size: 1.25em;
+    }
+
+  
+    .card {
+        padding: 18px;
+    }
+
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+
+
+    .quiz-buttons {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .quiz-buttons input {
+        width: 100%;
+    }
+
+    form fieldset {
+        padding: 16px;
+    }
+
+ 
+    .video-card video {
+        max-width: 100%;
+    }
+
+    .video-caption {
+        font-size: 0.9em;
+    }
+}
